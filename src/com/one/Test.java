@@ -10,7 +10,7 @@ public class Test {
         System.out.println(t1.perimeter());
         System.out.println("当三角形三边分别为"+t1.getA()+"、"+t1.getB()+"、"+t1.getC()+"时，");
         System.out.println("判断三边能否构成三角形的结果是："+t1.isTriangle());
-        t1.setA(15);
+        t1.change(15,4,7);
         System.out.println("当三角形三边分别为"+t1.getA()+"、"+t1.getB()+"、"+t1.getC()+"时，");
         System.out.println("判断三边能否构成三角形的结果是："+t1.isTriangle());
         System.out.println(l1.area());
